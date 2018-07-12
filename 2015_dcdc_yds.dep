@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>611932627</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\CurrentSP_yds.c</file>
+      <file>$PROJ_DIR$\Dac12s_yds.c</file>
+      <file>$PROJ_DIR$\Adc12s_yds.c</file>
+      <file>$PROJ_DIR$\Key_yds.c</file>
+      <file>$PROJ_DIR$\LedTest_yds.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Oled_yds.c</file>
+      <file>$PROJ_DIR$\Pid_yds.c</file>
+      <file>$PROJ_DIR$\Ta12_Pwm_yds.c</file>
+      <file>$PROJ_DIR$\Variable_yds.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\LedTest_yds.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\LedTest_yds.pbi</file>
+      <file>$PROJ_DIR$\Variable_yds.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Pid_yds.r43</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Pid_yds.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Oled_yds.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\2015_dcdc_yds.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\2015_dcdc_yds.ulp</file>
+      <file>$PROJ_DIR$\ledtest_yds.h</file>
+      <file>$PROJ_DIR$\CONFIG_YDS.H</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x16x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Oled_yds.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xtgmath.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\CurrentSP_yds.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\2015_dcdc_yds.d43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Dac12s_yds.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ymath.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Ta12_Pwm_yds.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Variable_yds.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\math.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Adc12s_yds.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Key_yds.pbi</file>
+      <file>$PROJ_DIR$\Key_yds.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\ADC12S_YDS.H</file>
+      <file>$PROJ_DIR$\Debug\Exe\2015_dcdc_yds.txt</file>
+      <file>$PROJ_DIR$\TA12_PWM_YDS.H</file>
+      <file>$PROJ_DIR$\Debug\Exe\2015_dcdc_yds.a43</file>
+      <file>$PROJ_DIR$\Debug\Obj\CurrentSP_yds.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Pid_yds.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Dac12s_yds.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Key_yds.r43</file>
+      <file>$PROJ_DIR$\&lt;invalid loc&gt;</file>
+      <file>$PROJ_DIR$\Debug\Obj\Variable_yds.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\oledfont_YDS.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Adc12s_yds.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\CURRENTSP_YDS.H</file>
+      <file>$PROJ_DIR$\DAC12S_YDS.H</file>
+      <file>$PROJ_DIR$\Debug\Obj\Oled_yds.pbi</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F149.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Ta12_Pwm_yds.r43</file>
+      <file>$TOOLKIT_DIR$\config\multiplier.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 45 43</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CurrentSP_yds.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 28 16 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 28 16 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Dac12s_yds.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 28 16 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 28 16 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Adc12s_yds.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 28 16 19 12 42 44 17 20 18 31 56 61 64 41 37 49 40 57 58 36 33 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 28 16 19 12 42 44 17 20 18 31 56 51 64 41 37 49 40 57 58 36 33 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Key_yds.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 28 16 19 40 12 23 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 28 16 19 40 12 23 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LedTest_yds.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 28 16 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 28 16 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 28 16 42 24 44 58 40 12 19 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 28 16 42 24 44 58 40 12 19 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Oled_yds.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 19 25 28 16 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Pid_yds.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 20 18 31 56 61 64 41 37 49 12 17 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 18 31 56 51 64 41 37 49 12 17 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Ta12_Pwm_yds.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 28 16 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 28 16 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Variable_yds.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25 28 16 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 28 16 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\2015_dcdc_yds.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 60 63 38 46 48 50 10 26 13 62 35 53 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\2015_dcdc_yds.txt</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 60 63 38 46 48 50 10 26 13 62 35 53 14</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
